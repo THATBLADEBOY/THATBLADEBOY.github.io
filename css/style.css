@@ -223,9 +223,23 @@ h3 {
   text-align: left;
   margin-left: 20%;
   margin-right: 20%;
+  margin-top: 5%;
 }
 
 .projects-header {
+  color: #fff;
+}
+
+.techicon {
+  margin-left: .4%;
+  margin-right: .4%;
+}
+
+.tech-resume-link {
+  margin-top: 1%;
+}
+
+.teach-header {
   color: #fff;
 }
 
