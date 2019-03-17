@@ -1,11 +1,12 @@
 html, body {
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  
 }
 
 body {
-  background: rgb(22, 22, 22);
+  background: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
 }
 
 #particles {
@@ -23,11 +24,10 @@ body {
   text-align: center;
 }
 h2 {
-  text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 50px;
-  font-weight: 100;
-  color: #fff;
+  font-weight: 800;
+  color: rgb(53, 53, 53);
   letter-spacing: 0.05em;
   margin: 0;
 }
@@ -109,14 +109,7 @@ form {
   }
 }
 
-@media only screen and (max-width: 100px) {
-  h1 {
-    font-size: 15px;
-  }
-  h1::after {
-    height: 8px;
-  }
-}
+
 
 @media only screen and (max-width: 100px) {
   #intro {
@@ -151,11 +144,11 @@ h1 {
 }
 
 .feedback {
-  background-color : #31B0D5;
+  background-color :#4285F4;
   color: white;
   padding: 10px 20px;
   border-radius: 4px;
-  border-color: #46b8da;
+  border-color: #4285F4;
 }
 
 #trigger {
@@ -168,7 +161,7 @@ h1 {
 
 input, textarea {
   border-radius: 15px;
-  border: .5px solid #998EFC;
+  border: .5px solid #4285F4;
   padding: 10px; 
   margin: .25rem;
   width: 60%;  
@@ -179,7 +172,7 @@ textarea {
 }
 
 .submit-button {
-  background-color: #998EFC;
+  background-color: #4285F4;
   color: #fff;
 }
 
@@ -192,63 +185,14 @@ h3 {
 }
 
 .contact-button {
-  background-color: #998EFC;
+  background-color: #F4B400;
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   border-radius: 25px;
-  border: 2px solid #998EFC;
+  border: 2px solid #F4B400;
   padding: 10px; 
   margin: .25rem;
-}
-
-
-.bio-pic {
-  width: 90%;
-}
-
-.image-section {
-  width:45%;
-}
-
-.bio-paragraph {
-  color: #fff;
-  font-style: normal;
-  width: 50%;
-}
-
-.bio {
-  display: flex;
-  justify-content: center;
-  text-align: left;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 5%;
-}
-
-.projects-header {
-  color: #fff;
-}
-
-.techicon {
-  margin-left: .4%;
-  margin-right: .4%;
-}
-
-.tech-resume-link {
-  margin-top: 1%;
-}
-
-.teach-header {
-  color: #fff;
-}
-
-.project-image {
-  width: 40%;
-}
-
-.project-card {
-  
 }
 
 
